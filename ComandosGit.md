@@ -23,8 +23,8 @@
 # CONFIGURAR DADOS DE EMAIL E NOME UTILIZADOS NOS COMMITS
 ## git config --local: configurações para cada projeto;
 ## git config --global: configurações para todos os projetos;
-###	user.name <nome>,
-###	user.email <email de login do git>;
+	user.name <nome>,
+	user.email <email de login do git>;
 
 
 # CONFIGURAR REPOSITÓRIO REMOTO
@@ -45,7 +45,7 @@
 ## git checkout <nome>: troca de branch;
 ## git chechout -b <nome>: cria uma nova branch e já troca para ela;
 ## git merge <nome da branch que quero dar o merge>: uni novamente as branches.
-###	:x aceita a merge, criando um commit de merge e não exibindo no log as alterações da branch adicionada;
+	:x aceita a merge, criando um commit de merge e não exibindo no log as alterações da branch adicionada;
 ## git rebase <branch que quero>: atualizar a branch atual com os log da outro branch sem gerar o log de merge, e insere esses logs antes do ultimo commit da atual;
 
 # NAVEGAR DENTRO DAS ALTERAÇÕES
